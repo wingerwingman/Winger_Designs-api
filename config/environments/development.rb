@@ -3,6 +3,16 @@ Rails.application.configure do
 
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
+  config.action_mailer.smtp_settings = {
+    address:              "smtp.office365.com",
+    port:                 587,
+    domain:               "wingerdesigns.com",
+    user_name:            "justin@wingerdesigns.com",
+    password:             "password",
+    authentication:       :login,
+    enable_starttls_auto: true
+  }
+  config.action_mailer.delivery_method = :smtp
   # since you don't have to restart the web server when you make code changes.
   config.cache_classes = false
 
