@@ -23,7 +23,12 @@ default: &default
 
 development:
   <<: *default
-  database: WingerDesigns_api_development
+  adapter: postgresql
+  encoding: unicode
+  database: myapp_development
+  username: postgres
+  password: Flamingo79*
+  port: 5432
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
