@@ -27,7 +27,7 @@ development:
   encoding: unicode
   database: myapp_development
   username: postgres
-  password: Flamingo79*
+  password: postgres
   port: 5432
 
   # The specified database role being used to connect to postgres.
