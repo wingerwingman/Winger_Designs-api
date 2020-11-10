@@ -9,7 +9,7 @@ gem 'rails', '~> 6.0.3', '>= 6.0.3.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
-developmetn do 
+group :development do
   gem 'puma', '~> 4.1'
 end
 gem 'mail'
