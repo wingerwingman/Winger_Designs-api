@@ -12,6 +12,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 group :development do
   gem 'puma', '~> 4.1'
 end
+gem 'active_model_serializers'
 gem 'mail'
 gem 'sass-rails', '~> 5.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
