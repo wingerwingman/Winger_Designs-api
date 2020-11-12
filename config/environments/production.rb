@@ -1,6 +1,6 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
-  config.config.read_encrypted_secrets = true
+  #config.config.read_encrypted_secrets = true
   # Code is not reloaded between requests.
   config.cache_classes = true
   config.serve_static_assets = true
