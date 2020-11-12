@@ -1,4 +1,4 @@
-class EmailController < ApplicationController::ApplicationMailer
+class EmailController < ApplicationMailer
 
         def contact_email(name, email, message)
           @name = name
