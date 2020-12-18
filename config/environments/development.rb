@@ -7,8 +7,8 @@ Rails.application.configure do
     address:              "smtp.office365.com",
     port:                 587,
     domain:               "wingerdesigns.com",
-    user_name:            "justin@wingerdesigns.com",
-    password:             "password",
+    user_name:            "Rails.applicationSecrets.email_user_name",
+    password:             "Rails.application.secrets.email_password",
     authentication:       :login,
     enable_starttls_auto: true
   }
